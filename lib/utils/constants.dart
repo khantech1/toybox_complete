@@ -1,6 +1,6 @@
 class AppConstants {
   AppConstants._();
-  static const String serverUrl = 'http://192.168.43.208:55595';
+  static const String serverUrl = 'http://toybox.runasp.net';
   static const String baseUrl = '$serverUrl/api';
 
   static String imageUrl(String? path) {

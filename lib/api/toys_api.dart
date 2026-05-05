@@ -76,14 +76,14 @@ class ToysApi {
     bool? visibleToAll,
   }) async {
     final body = <String, dynamic>{
-      'toyName': toyName,
-      'toyDescription': toyDescription,
-      'categoryId': categoryId,
-      'desiredCategoryId': desiredCategoryId,
-      'conditionStatus': conditionStatus,
+      'toy_name': toyName,
+      'toy_description': toyDescription,
+      'category_id': categoryId,
+      'desired_category_id': desiredCategoryId,
+      'condition_status': conditionStatus,
       'value': value,
-      'visibleToAll': visibleToAll,
-      'visibleToUserIds': visibleToUserIds,
+      'visible_to_all': visibleToAll,
+      'visible_to_user_ids': visibleToUserIds,
     };
 
     body.removeWhere((key, value) => value == null);
